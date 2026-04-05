@@ -102,15 +102,23 @@ npm run dev
 ## Example Requests
 
 **Get top 3 artists:**
+
 GET https://streamlytics-production.up.railway.app/artists/top?limit=3
+
 **Get trending songs:**
+
 GET https://streamlytics-production.up.railway.app/songs/trending
+
 **Get user listening stats:**
+
 GET https://streamlytics-production.up.railway.app/users/1/stats
+
 **Log a play (authenticated):**
+
 POST https://streamlytics-production.up.railway.app/plays
 Authorization: Bearer <your_token>
 Body: { "user_id": 1, "song_id": 3, "duration_played": 198 }
+
 ---
 
 ## Database Schema
@@ -128,4 +136,4 @@ Notable SQL features used:
 
 ## Author
 
-Tehila Raviv — [LinkedIn](https://www.linkedin.com/in/tehila-raviv/) · [GitHub](https://github.com/tehila-raviv)
+Tehila Raviv - [LinkedIn](https://www.linkedin.com/in/tehila-raviv/) · [GitHub](https://github.com/tehila-raviv)
