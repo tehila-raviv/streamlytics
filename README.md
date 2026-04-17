@@ -99,6 +99,17 @@ npm run dev
 
 ---
 
+## 🧪 Quality Assurance & Testing
+This project maintains high reliability through a comprehensive test suite:
+- **Unit Testing (Jest + Supertest):** Covering critical paths including Authentication flow and complex Data Analytics.
+- **Database Abstraction:** Using **Manual Mocks** for PostgreSQL queries to ensure consistent test environments.
+- **Edge Case Coverage:** Validating error states, missing entities, and security (JWT) constraints.
+- **Coverage Report:** See test coverage screenshot below
+
+![Test Coverage Screenshot](./coverage-screenshot.png)
+Achieved 91.66% coverage on critical security middleware and robust testing for complex SQL analytics endpoints.
+---
+
 ## Example Requests
 
 **Get top 3 artists:**
